@@ -4,10 +4,11 @@
   "version": "0.0.1",
   "packageManager": "yarn@4.0.2",
   "scripts": {
-    "build": "tailwindcss -i ./src/main.css -o ./dist/main.css",
-    "dev": "yarn build --watch"
+    "build": "tailwindcss -i ./src/main.css -o ./dist/main.css --minify",
+    "dev": "http-server ./dist -s -p 8000 -c-1 --cors"
   },
   "devDependencies": {
+    "http-server": "^14.1.1",
     "tailwindcss": "^3.4.1"
   }
 }
