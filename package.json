@@ -2,5 +2,12 @@
   "name": "@redbrick/design-system",
   "author": "Jed Hazaymeh <magma@redbrick.dcu.ie>",
   "version": "0.0.1",
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.0.2",
+  "scripts": {
+    "build": "tailwindcss -i ./src/main.css -o ./dist/main.css",
+    "dev": "yarn build --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
 }
