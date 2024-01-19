@@ -1,0 +1,6 @@
+{
+  "name": "@redbrick/design-system",
+  "author": "Jed Hazaymeh <magma@redbrick.dcu.ie>",
+  "version": "0.0.1",
+  "packageManager": "yarn@4.0.2"
+}
