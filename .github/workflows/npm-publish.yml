@@ -20,6 +20,7 @@ jobs:
           node-version: '18.x'
           registry-url: 'https://npm.pkg.github.com/'
           scope: '@redbrick'
+      - run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
       - run: corepack enable
       - run: yarn install --frozen-lockfile
       - run: yarn npm publish
