@@ -1,9 +1,8 @@
-const daisyui = require('daisyui')
 const themes = require('daisyui/src/theming/themes')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  plugins: [daisyui],
+  plugins: [require('@tailwindcss/typography'), require('daisyui')],
   daisyui: {
     themes: [
       {
