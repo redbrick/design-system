@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Fira Code';
+  src: url('https://raw.githubusercontent.com/redbrick/design-system/main/assets/fonts/fira-code/light/FiraCode-Light.ttf') format('truetype'),
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('https://raw.githubusercontent.com/redbrick/design-system/main/assets/fonts/fira-code/regular/FiraCode-Regular.ttf') format('truetype'),
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('https://raw.githubusercontent.com/redbrick/design-system/main/assets/fonts/fira-code/retina/FiraCode-Retina.ttf') format('truetype'),
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('https://raw.githubusercontent.com/redbrick/design-system/main/assets/fonts/fira-code/medium/FiraCode-Medium.ttf') format('truetype'),
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('https://raw.githubusercontent.com/redbrick/design-system/main/assets/fonts/fira-code/semibold/FiraCode-SemiBold.ttf') format('truetype'),
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('https://raw.githubusercontent.com/redbrick/design-system/main/assets/fonts/fira-code/bold/FiraCode-Bold.ttf') format('truetype'),
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code VF';
+  src: url('https://raw.githubusercontent.com/redbrick/design-system/main/assets/fonts/fira-code/variable/FiraCode-VF.ttf') format('truetype-variations'),
+  /* font-weight requires a range: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide#Using_a_variable_font_font-face_changes */
+  font-weight: 300 700;
+  font-style: normal;
+}
