@@ -2,7 +2,7 @@ name: Trigger atlas rebuild
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "master" ]
 
 jobs:
   build:
@@ -14,4 +14,4 @@ jobs:
         with:
           token: ${{ secrets.ATLAS_TOKEN }}
           repository: redbrick/atlas
-          event-type: rebuild
+          event-type: design-system-rebuild
