@@ -22,6 +22,12 @@ module.exports = {
           ...themes.synthwave,
           primary: '#cd1946',
         },
+        black: {
+          ...themes.black,
+          primary: '#dc2b31',
+          secondary: '#1784d2',
+          accent: '#d21746',
+        },
         'nix-light': {
           ...themes.light,
           primary: '#5277c3',
