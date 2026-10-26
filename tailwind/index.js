@@ -6,6 +6,16 @@ module.exports = {
   daisyui: {
     themes: [
       {
+        halloween: {
+          ...themes.dark,
+          primary: '#ff5900',
+          secondary: '#ffcc00',
+          accent: '#ff00ff',
+          neutral: '#1f2937',
+          'primary-content': '#ffffff',
+          'secondary-content': '#ffffff',
+          'neutral-content': '#ffffff',
+        },
         light: {
           ...themes.light,
           primary: '#bc171c',
