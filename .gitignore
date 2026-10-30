@@ -11,3 +11,5 @@
 
 #!.yarn/cache
 .pnp.*
+# NPM packages
+/node_modules
